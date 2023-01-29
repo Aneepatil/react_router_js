@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./component/Home.js";
 import About from "./component/About.js";
 import Navbar from "./component/Navbar.js";
@@ -15,7 +15,7 @@ function App() {
               <Route exact path="/" element={<Home />} />
               <Route path="/About" element={<About />} />
               <Route path="/Contact" element={<Contact />} />
-              <Route path="/card/:user" element={<Card/>} />
+              <Route path="/Contact/:user" element={<Card/>} />
           </Routes>
         </div>
       </BrowserRouter>
